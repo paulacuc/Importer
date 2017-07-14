@@ -245,30 +245,6 @@
         ]
       },
       {
-        "id": "OptumPractitioner.role",
-        "path": "OptumPractitioner.role",
-        "short": "Roles/organizations the practitioner is associated with",
-        "definition": "The list of roles/organizations that the practitioner is associated with.",
-        "min": 0,
-        "max": "*",
-        "base": {
-          "path": "OptumPractitioner.role",
-          "min": 0,
-          "max": "1"
-        },
-        "type": [
-          {
-            "code": "BackboneElement"
-          }
-        ],
-        "mapping": [
-          {
-            "identity": "fhir",
-            "map": "Practitioner.role"
-          }
-        ]
-      },
-      {
         "id": "OptumPractitioner.role.organization",
         "path": "OptumPractitioner.role.organization",
         "short": "Organization where the roles are performed",
