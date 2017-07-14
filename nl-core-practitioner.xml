@@ -9,7 +9,7 @@
     <status value="draft"/>
     <publisher value="HL7 NL"/>
     <description
-        value="Zorgverlener. PAULAAAAAAAAAAAAAAAAAAAAAAAAAAAAaaFunctional Paulaaaa requirements taken from Clinical Building Block (Zorginformatiebouwsteen) Zorgverlener v1.2 (release 2015). Names and addresses are also in compliance with HL7 V3 Basic Components."/>
+        value="Zorgverlener. PAULAAAAAAAAAAAAAAAAAAAAAAAAAAAAaaFunctional Paulaaaa CUCUCUCUCUCUCUCCU requirements taken from Clinical Building Block (Zorginformatiebouwsteen) Zorgverlener v1.2 (release 2015). Names and addresses are also in compliance with HL7 V3 Basic Components."/>
     <copyright value="CC0"/>
     <fhirVersion value="3.0.0"/>
     <mapping>
@@ -214,19 +214,6 @@
             <mapping>
                 <identity value="zib-patient"/>
                 <map value="NL-CM:0.1.19"/>
-            </mapping>
-        </element>
-        <element id="Practitioner.address">
-            <path value="Practitioner.address"/>
-            <short value="AddressInformation"/>
-            <alias value="Adresgegevens"/>
-            <type>
-                <code value="Address"/>
-                <profile value="http://fhir.nl/fhir/StructureDefinition/nl-core-address"/>
-            </type>
-            <mapping>
-                <identity value="zib-zorgaanbieder"/>
-                <map value="NL-CM:17.1.7"/>
             </mapping>
         </element>
     </differential>
