@@ -36,23 +36,6 @@
         "system": "http://unitsofmeasure.org/",
         "code": "mmHg"
       }
-    },
-    {
-      "code": {
-        "coding": [
-          {
-            "system": "http://loinc.org",
-            "code": "8462-4",
-            "display": "Diastolic Blood nuuuu Pressure"
-          }
-        ]
-      },
-      "valueQuantity": {
-        "value": 81,
-        "unit": "mmHg",
-        "system": "http://unitsofmeasure.org/",
-        "code": "mmHg"
-      }
     }
   ]
 }
