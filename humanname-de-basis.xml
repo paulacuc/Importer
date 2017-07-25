@@ -14,7 +14,7 @@
       <value value="http://hl7.de/technische-komitees/fhir/" />
     </telecom>
   </contact>
-  <purpose value="Humanname mit in Deutschland üblichen Erweiterungen" />
+  <purpose value="Humanname mit in Deutschland üblichen hubububububbuErweiterungen" />
   <fhirVersion value="3.0.0" />
   <kind value="complex-type" />
   <abstract value="false" />
