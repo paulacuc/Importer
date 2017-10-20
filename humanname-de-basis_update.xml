@@ -14,7 +14,7 @@
       <value value="http://hl7.de/technische-komitees/fhir/" />
     </telecom>
   </contact>
-  <purpose value="Humanname mit in Paula Deutschland üblichen hubububububbuErweiterungen" />
+  <purpose value="Humanname mit in Paula Deutschland üblichen" />
   <fhirVersion value="3.0.0" />
   <kind value="complex-type" />
   <abstract value="false" />
@@ -122,7 +122,7 @@
         <xpath value="@value|f:*|h:div" />
       </constraint>
       <constraint>
-        <key value="ext-1" />
+        <key value="ext-2" />
         <severity value="error" />
         <human value="Must have either extensions or value[x], not both" />
         <expression value="extension.exists() != value.exists()" />
